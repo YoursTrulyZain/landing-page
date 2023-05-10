@@ -44,10 +44,15 @@ img {
 .header.bar {
     display: flex;
     justify-content: space-between;
+    padding: 20px 0px;
 }
 
 .info {
     width: 500px;
+}
+
+#info-img {
+    border-radius: 10px;
 }
 
 .header.info {
@@ -62,4 +67,12 @@ img {
     flex-direction: column;
     justify-content: center;
     gap: 20px;
+}
+
+.button {
+    padding: 5px 30px;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
