@@ -52,8 +52,22 @@ h2 {
     color: #E5E7EB;
 }
 
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-signature {
+    font-weight: bold;
+}
+
 .width {
     width: 60%;
+}
+
+.quote-width {
+    width: 40%;
 }
 
 .background {
@@ -138,4 +152,23 @@ h2 {
 .card {
     flex: 0 0 100px;
     text-align: center;
+}
+
+.body.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+#quote, #signature {
+    display: flex;
+}
+
+#quote {
+    align-self: flex-start;
+}
+
+#signature {
+    align-self: flex-end;
 }
